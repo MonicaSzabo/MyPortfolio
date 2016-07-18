@@ -1,0 +1,244 @@
+/*OVERALL SECTION
+=====================================================================*/
+
+@font-face {
+	font-family: 'player2';
+	src: url(../fonts/PressStart2P-Regular.ttf) format('truetype');
+}
+
+* {
+	font-family: 'player2';	
+}
+
+.background {
+	background-image: url('../images/background/Background_Main.png'), url('../images/background/Background_Fill.png');
+	background-repeat: repeat-x, repeat;
+}
+
+
+/*BLACK BANNER SECTION
+=====================================================================*/
+
+.banner {
+	width: 100%;
+	height: 48px;
+	background-image: url('../images/background/Banner_StretchWide.png');
+}
+
+.leftAlignBar {
+	padding: 16px 0px 0px 15%;
+	font-size: 12px;
+	color: #68663F;
+	float: left;
+}
+
+.rightAlignBar {
+	padding: 16px 0px 0px 35%;
+	font-size: 12px;
+	color: #68663F;
+	float: left;
+}
+
+a.banneremail, a.banneremail:visited {
+	text-decoration: none;
+	color: #68663F;
+}
+
+a.banneremail:hover, a.banneremail:active {
+	text-decoration: none;
+	color: #E2DFB6;
+}
+
+
+/*CONTENT ROWS
+=====================================================================*/
+
+.firstrow {
+	width: 1100px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+#playerprofile {
+	margin: 0 auto;
+}
+
+#navbar {
+	margin: 0 auto;
+}
+
+a.contactLink, a.contactLink:visited {
+	text-decoration: none;
+	color: #68663F;
+}
+
+a.contactLink:hover, a.contactLink:active {
+	text-decoration: none;
+	color: #000;
+}
+
+
+/*NAV BUTTONS
+=====================================================================*/
+
+#homeBtn {
+	background-image: url('../images/buttons/Button_Home_Normal.png');
+	background-size: cover;
+	width: 256px;
+	height: 60px;
+}
+
+#homeBtn:hover {
+	background-image: url('../images/buttons/Button_Home_Highlight.png');
+}
+
+#aboutMeBtn {
+	background-image: url('../images/buttons/Button_About_Normal.png');
+	background-size: cover;
+	width: 256px;
+	height: 60px;
+}
+
+#aboutMeBtn:hover {
+	background-image: url('../images/buttons/Button_About_Highlight.png');
+}
+
+#portfolioBtn {
+	background-image: url('../images/buttons/Button_Portfolio_Normal.png');
+	background-size: cover;
+	width: 256px;
+	height: 60px;
+}
+
+#portfolioBtn:hover {
+	background-image: url('../images/buttons/Button_Portfolio_Highlight.png');
+}
+
+#blogBtn {
+	background-image: url('../images/buttons/Button_Blog_Normal.png');
+	background-size: cover;
+	width: 256px;
+	height: 60px;
+}
+
+#blogBtn:hover {
+	background-image: url('../images/buttons/Button_Blog_Highlight.png');
+}
+
+#contactBtn {
+	background-image: url('../images/buttons/Button_Contact_Normal.png');
+	background-size: cover;
+	width: 256px;
+	height: 60px;
+}
+
+#contactBtn:hover {
+	background-image: url('../images/buttons/Button_Contact_Highlight.png');
+}
+
+
+/*MAIN BORDERS
+=====================================================================*/
+
+.border {
+	width: 930px;
+    border: 3px solid transparent;
+    border-image-source: url('../images/frame/Frame_Box.png');
+    border-image-slice: 60;
+    border-image-width: 20;
+    border-image-outset: 1;
+    z-index: 10;
+    margin: 0 auto;
+}
+
+.bodytext {
+	width: 820px;
+	padding: 20px 10px 20px 10px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #000;
+	font-size: 15px;
+	line-height: 200%;
+    background-color: #e2dfb6;
+}
+
+
+/*BORDER TITLES
+=====================================================================*/
+
+.borderHeaderBox {
+	width: 50%;
+	float: left;
+	margin-left: 100px;
+	margin-top: -6px;
+}
+
+.borderheader {
+	float: left;
+	z-index: 100;
+	position: relative;
+	display: inline;
+	height: 56px;
+}
+
+.bordercenter {
+	float: left;
+	background-image: url('../images/frame/Frame_Title_Center.png');
+	height: 56px;
+	display: inline;
+	padding-top: 13px;
+	font-size: 24px;
+	color: #E2DFB6;
+}
+
+/*EACH BORDER TEXT BLOCK SPECIFICS
+<without TEXT is the border height, with TEXT is the height of the textbox>
+=====================================================================*/
+
+#welcome {
+	margin-top: 15px;
+	height: 200px;
+}
+
+#welcomeText {
+	height: 110px;
+}
+
+#recentProjects {
+	margin-top: 15px;
+	height: 300px;
+}
+
+#recentProjectsText {
+	height: 200px;
+}
+
+#aboutMe {
+	margin-top: 15px;
+	height: 1430px;
+}
+
+#aboutMeText {
+	height: 1330px;
+}
+
+#portfolio {
+	margin-top: 15px;
+	height: 200px;
+}
+
+#portfolioText {
+	height: 110px;
+}
+
+#contact {
+	margin-top: 15px;
+	height: 250px;
+
+}
+
+#contactText {
+	height: 160px;
+}
