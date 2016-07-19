@@ -1,18 +1,20 @@
 $(document).ready(function() {
 
     //On mouseover on the portfolio images, will show the correct caption
-    $('.portPic').hover(function() {
+    $('.portPic').on('mouseover', function() {
         var id = "#" + $(this).attr('id');
         var idNum = id.slice(-2);
         var capID = "#caption" + idNum
-
+        console.log(capID + " this is in mouseover");
         $(capID).css('visibility', 'inherit');
 
-    }, function() {
+    });
+
+    $('.caption').on('mouseleave', function() {
         var id = "#" + $(this).attr('id');
         var idNum = id.slice(-2);
         var capID = "#caption" + idNum
-
+        console.log(capID + " this is in mouseleave");
         $(capID).css('visibility', 'hidden');
     });
     
