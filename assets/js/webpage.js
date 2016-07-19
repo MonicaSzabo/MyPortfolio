@@ -6,14 +6,14 @@ $(document).ready(function() {
         var idNum = id.slice(-2);
         var capID = "#caption" + idNum
 
-        $(capID).css('display', 'inherit');
+        $(capID).css('visibility', 'inherit');
 
     }, function() {
         var id = "#" + $(this).attr('id');
         var idNum = id.slice(-2);
         var capID = "#caption" + idNum
 
-        $(capID).css('display', 'none');
+        $(capID).css('visibility', 'hidden');
     });
     
 });

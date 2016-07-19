@@ -17,7 +17,7 @@
 	padding-top: 60px;
 	padding-bottom: 60px;
 	min-width: 960px;
-	min-height: 1000px;
+	min-height: 1500px;
 }
 
 
@@ -256,7 +256,7 @@ a.contactLink:hover, a.contactLink:active {
 }
 
 .caption {
-	display: none;
+	visibility: hidden;
 	background: #68663F;
 	color: #fff;
 	padding: 10px;
