@@ -168,7 +168,7 @@ a.contactLink:hover, a.contactLink:active {
 	color: #000;
 	font-size: 15px;
 	line-height: 200%;
-    background-color: #e2dfb6;
+    background-color: #E2DFB6;
 }
 
 
@@ -244,12 +244,28 @@ a.contactLink:hover, a.contactLink:active {
 /*OTHER
 =====================================================================*/
 
+.portfolio {
+	display: inline-block;
+}
+
 .portPic {
 	width: 350px;
-	display: inline-block;
 	padding: 10px;
 }
 
-.portPic:hover {
-	opacity: 0.7;
+/*.portPic:hover {
+	opacity: 0.9;
+}*/
+
+.caption {
+	display: none;
+	background: #68663F;
+	color: #fff;
+	padding: 10px;
+	opacity: 0.9;
+	position:absolute;
+	width: 330px;
+	height: 210px;
+	margin: 10px -10px 10px 10px;
+	font-size: 12px;
 }
