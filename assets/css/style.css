@@ -16,7 +16,8 @@
 	background-attachment: fixed, fixed;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	height: 2000px;
+	min-width: 960px;
+	min-height: 1000px;
 }
 
 
