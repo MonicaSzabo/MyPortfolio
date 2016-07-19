@@ -16,6 +16,8 @@
 	background-attachment: fixed, fixed;
 	padding-top: 60px;
 	padding-bottom: 60px;
+	background-size: cover;
+	height: 100%;
 }
 
 
@@ -252,10 +254,6 @@ a.contactLink:hover, a.contactLink:active {
 	width: 350px;
 	padding: 10px;
 }
-
-/*.portPic:hover {
-	opacity: 0.9;
-}*/
 
 .caption {
 	display: none;
