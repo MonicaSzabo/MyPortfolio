@@ -252,18 +252,16 @@ a.contactLink:hover, a.contactLink:active {
 
 .portPic {
 	width: 350px;
-	padding: 10px;
+
 }
 
 .caption {
 	visibility: hidden;
 	background: #68663F;
 	color: #fff;
-	padding: 10px;
 	opacity: 0.9;
 	position:absolute;
-	width: 330px;
-	height: 210px;
-	margin: 10px -10px 10px 10px;
+	width: 350px;
+	height: 221.5189873418px;
 	font-size: 12px;
 }
