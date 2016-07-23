@@ -92,58 +92,54 @@ a.contactLink:hover, a.contactLink:active {
 /*NAV BUTTONS
 =====================================================================*/
 
-#homeBtn {
-	background-image: url('../images/buttons/Button_Home_Normal.png');
+/* Target all childern of #navbar whose id ends with "Btn" */
+#navbar [id$="Btn"] {
+	background-image: url('../images/buttons/Buttons_Sprite.png');
 	width: 256px;
+	height: 60px;
+}
+
+#homeBtn {
+	background-position: 0 0;
 	height: 64px;
 }
 
 #homeBtn:hover {
-	background-image: url('../images/buttons/Button_Home_Highlight.png');
+	background-position: -256px 0;
 }
 
 #aboutMeBtn {
-	background-image: url('../images/buttons/Button_About_Normal.png');
-	background-size: cover;
-	width: 256px;
-	height: 60px;
+	background-position: 0 -64px;
 }
 
 #aboutMeBtn:hover {
-	background-image: url('../images/buttons/Button_About_Highlight.png');
+	background-position: -256px -64px;
 }
 
 #portfolioBtn {
-	background-image: url('../images/buttons/Button_Portfolio_Normal.png');
-	background-size: cover;
-	width: 256px;
-	height: 60px;
+	background-position: 0 -124px;
 }
 
 #portfolioBtn:hover {
-	background-image: url('../images/buttons/Button_Portfolio_Highlight.png');
+	background-position: -256px -124px;
 }
 
 #blogBtn {
-	background-image: url('../images/buttons/Button_Blog_Normal.png');
-	background-size: cover;
-	width: 256px;
-	height: 60px;
+	background-position: 0 -184px;
+	height: 56px;
+	margin-top: 4px;
 }
 
 #blogBtn:hover {
-	background-image: url('../images/buttons/Button_Blog_Highlight.png');
+	background-position: -256px -184px;
 }
 
 #contactBtn {
-	background-image: url('../images/buttons/Button_Contact_Normal.png');
-	background-size: cover;
-	width: 256px;
-	height: 60px;
+	background-position: 0 -240px;
 }
 
 #contactBtn:hover {
-	background-image: url('../images/buttons/Button_Contact_Highlight.png');
+	background-position: -256px -240px;
 }
 
 
