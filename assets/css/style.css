@@ -231,6 +231,9 @@ a.contactLink:hover, a.contactLink:active {
 
 #portfolioText {
 	height: 700px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 #contact {
