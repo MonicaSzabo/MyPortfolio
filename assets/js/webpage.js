@@ -4,7 +4,7 @@ $(document).ready(function() {
     $('.portPic').on('mouseover', function() {
         var id = "#" + $(this).attr('id');
         var idNum = id.slice(-2);
-        var capID = "#caption" + idNum
+        var capID = "#caption" + idNum;
 
         $(capID).css('visibility', 'inherit');
 
@@ -13,7 +13,7 @@ $(document).ready(function() {
     $('.caption').on('mouseleave', function() {
         var id = "#" + $(this).attr('id');
         var idNum = id.slice(-2);
-        var capID = "#caption" + idNum
+        var capID = "#caption" + idNum;
 
         $(capID).css('visibility', 'hidden');
     });
