@@ -19,7 +19,22 @@
 	padding-bottom: 60px;
 	width: 100%;
 	/*min-width: 960px;*/
-	min-height: 1500px;
+}
+
+#indexBG {
+	min-height: 745px;
+}
+
+#contactBG {
+	min-height: 980px;
+}
+
+#portfolioBG {
+	min-height: 2098px;
+}
+
+#aboutmeBG {
+	min-height: 1800px;
 }
 
 
@@ -81,14 +96,19 @@ a.banneremail:hover, a.banneremail:active {
 	margin: 0 auto;
 }
 
-a.contactLink, a.contactLink:visited {
+
+a.textLink, a.textLink:visited {
 	text-decoration: none;
-	color: #68663F;
+	color: #e2dfb6;
+	background-color: #38360f;
+	padding: 5px;
 }
 
-a.contactLink:hover, a.contactLink:active {
+a.textLink:hover, a.textLink:active {
 	text-decoration: none;
-	color: #000;
+	color: #68663f;
+	background-color: #adab84;
+	padding: 5px;
 }
 
 
@@ -216,33 +236,30 @@ a.contactLink:hover, a.contactLink:active {
 
 #aboutMe {
 	margin-top: 15px;
-	height: 1430px;
+	height: 1350px;
 }
 
 #aboutMeText {
-	height: 1330px;
+	height: 1260px;
 }
 
 #portfolio {
 	margin-top: 15px;
-	height: 800px;
+	height: 1655px;
 }
 
 #portfolioText {
-	height: 700px;
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
+	height: 1566px;
 }
 
 #contact {
 	margin-top: 15px;
-	height: 250px;
+	height: 535px;
 
 }
 
 #contactText {
-	height: 160px;
+	height: 445px;
 }
 
 /*OTHER
@@ -266,6 +283,10 @@ a.contactLink:hover, a.contactLink:active {
 	width: 350px;
 	height: 221.5189873418px;
 	font-size: 12px;
+}
+
+.contactIcon {
+	width: 40px;
 }
 
 /*MOBILE DEVICES  1293
