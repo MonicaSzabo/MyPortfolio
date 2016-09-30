@@ -201,7 +201,7 @@ a.textLink:hover, a.textLink:active {
 	width: 50%;
 	float: left;
 	margin-left: 100px;
-	margin-top: -6px;
+	margin-top: -7px;
 }
 
 .borderheader {
@@ -237,11 +237,11 @@ a.textLink:hover, a.textLink:active {
 
 #aboutMe {
 	margin-top: 15px;
-	height: 1350px;
+	height: 1395px;
 }
 
 #aboutMeText {
-	height: 1260px;
+	height: 1316px;
 }
 
 #portfolio {
