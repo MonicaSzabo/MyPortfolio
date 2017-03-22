@@ -17,5 +17,30 @@ $(document).ready(function() {
 
         $(capID).css('visibility', 'hidden');
     });
+
+
+    //Height stays 100% of the screen
+    function windowH() {
+         var wH = $(window).height();
+
+         var wW = $(window).width();
+
+         //Mobile responsiveness
+         if(wW <= 767) {
+            wH = 200;
+            $('.right-bar').css({'overflow-y': 'inherit'});
+         } else {
+            $('.right-bar').css({'overflow-y': 'scroll'});
+         }
+
+         $('.background').css({height: wH});
+
+    }
+    //Resizes on window resize
+    window.onresize = function () {
+            windowH();
+    };
+    //On initial load will size
+    windowH();
     
 });

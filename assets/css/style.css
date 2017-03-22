@@ -14,7 +14,7 @@
 	background-image: url('../images/background/Background_Main.png'), url('../images/background/Background_Fill.png');
 	background-repeat: repeat-x, repeat;
 	background-attachment: fixed, fixed;
-	background-position: center;
+	background-position: center top;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	width: 100%;
