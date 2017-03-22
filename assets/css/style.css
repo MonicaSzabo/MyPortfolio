@@ -20,7 +20,7 @@
 	width: 100%;
 }
 
-#indexBG {
+/*#indexBG {
 	min-height: 745px;
 }
 
@@ -34,7 +34,7 @@
 
 #aboutmeBG {
 	min-height: 1800px;
-}
+}*/
 
 
 /*BLACK BANNER SECTION
@@ -176,6 +176,8 @@ a.textLink:hover, a.textLink:active {
     border-image-width: 20;
     border-image-outset: 1;
     margin: 0 auto;
+    margin-top: 15px;
+    height: 600px;
 }
 
 .bodytext {
@@ -189,6 +191,8 @@ a.textLink:hover, a.textLink:active {
 	font-size: 15px;
 	line-height: 200%;
     background-color: #E2DFB6;
+    overflow: scroll;
+    height: 500px;
 }
 
 
@@ -224,42 +228,42 @@ a.textLink:hover, a.textLink:active {
 <without TEXT is the border height, with TEXT is the height of the textbox>
 =====================================================================*/
 
-#welcome {
+/*#welcome {
 	margin-top: 15px;
-	height: 280px;
+	height: 600px;
 }
 
 #welcomeText {
-	height: 190px;
+	height: 500px;
 }
 
 #aboutMe {
 	margin-top: 15px;
-	height: 1395px;
+	height: 600px;
 }
 
 #aboutMeText {
-	height: 1316px;
+	height: 500px;
 }
 
 #portfolio {
 	margin-top: 15px;
-	height: 1910px;
+	height: 600px;
 }
 
 #portfolioText {
-	height: 1828px;
+	height: 500px;
 }
 
 #contact {
 	margin-top: 15px;
-	height: 535px;
+	height: 600px;
 
 }
 
 #contactText {
-	height: 445px;
-}
+	height: 500px;
+}*/
 
 /*OTHER
 =====================================================================*/
