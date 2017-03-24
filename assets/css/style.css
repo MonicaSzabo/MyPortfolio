@@ -11,70 +11,52 @@
 }
 
 .background {
-	background-image: url('../images/background/Background_Main.png'), url('../images/background/Background_Fill.png');
-	background-repeat: repeat-x, repeat;
 	background-attachment: fixed, fixed;
+	background-image: url('../images/background/Background_Main.png'), url('../images/background/Background_Fill.png');
 	background-position: center top;
-	padding-top: 60px;
+	background-repeat: repeat-x, repeat;
 	padding-bottom: 60px;
+	padding-top: 60px;
 	width: 100%;
 }
-
-/*#indexBG {
-	min-height: 745px;
-}
-
-#contactBG {
-	min-height: 980px;
-}
-
-#portfolioBG {
-	min-height: 2098px;
-}
-
-#aboutmeBG {
-	min-height: 1800px;
-}*/
 
 
 /*BLACK BANNER SECTION
 =====================================================================*/
 
 .banner {
-	width: 100%;
-	height: 48px;
 	background-image: url('../images/background/Banner_StretchWide.png');
 	position: fixed;
 	z-index: 100;
+	height: 48px;
+	width: 100%;
 }
 
 #footer {
-	left: 0px;
 	bottom: 0px;
+	left: 0px;
+	color: #68663F;
+	font-size: 12px;
 }
 
 .leftAlignBar {
-	padding: 16px 0px 0px 15%;
-	font-size: 12px;
-	color: #68663F;
 	float: left;
+	padding: 16px 0px 0px 15%;
 }
 
 .rightAlignBar {
-	padding: 16px 15% 0px 0px;
-	font-size: 12px;
-	color: #68663F;
 	float: right;
+	padding: 16px 15% 0px 0px;
 }
 
 a.banneremail, a.banneremail:visited {
-	text-decoration: none;
 	color: #68663F;
+	text-decoration: none;
 }
 
 a.banneremail:hover, a.banneremail:active {
-	text-decoration: none;
 	color: #E2DFB6;
+	text-decoration: none;
 }
 
 
@@ -82,8 +64,8 @@ a.banneremail:hover, a.banneremail:active {
 =====================================================================*/
 
 .firstrow {
-	width: 93%;
 	margin: 0 auto;
+	width: 93%;
 }
 
 #playerprofile {
@@ -97,17 +79,17 @@ a.banneremail:hover, a.banneremail:active {
 
 
 a.textLink, a.textLink:visited {
-	text-decoration: none;
-	color: #e2dfb6;
 	background-color: #38360f;
+	color: #e2dfb6;
 	padding: 5px;
+	text-decoration: none;
 }
 
 a.textLink:hover, a.textLink:active {
-	text-decoration: none;
-	color: #68663f;
 	background-color: #adab84;
+	color: #68663f;
 	padding: 5px;
+	text-decoration: none;	
 }
 
 
@@ -117,8 +99,8 @@ a.textLink:hover, a.textLink:active {
 /* Target all childern of #navbar whose id ends with "Btn" */
 #navbar [id$="Btn"] {
 	background-image: url('../images/buttons/Buttons_Sprite.png');
-	width: 256px;
 	height: 60px;
+	width: 256px;	
 }
 
 #homeBtn {
@@ -148,8 +130,8 @@ a.textLink:hover, a.textLink:active {
 
 #blogBtn {
 	background-position: 0 -184px;
-	height: 56px;
 	margin-top: 4px;
+	height: 56px;
 }
 
 #blogBtn:hover {
@@ -169,7 +151,6 @@ a.textLink:hover, a.textLink:active {
 =====================================================================*/
 
 .border {
-	width: 79%;
     border: 3px solid transparent;
     border-image-source: url('../images/frame/Frame_Box.png');
     border-image-slice: 60;
@@ -178,21 +159,19 @@ a.textLink:hover, a.textLink:active {
     margin: 0 auto;
     margin-top: 15px;
     height: 600px;
+    width: 79%;
 }
 
 .bodytext {
-	width: 90%;
-	padding: 20px 10px 20px 10px;
-	margin-top: 40px;
-	margin-bottom: 20px;
-	margin-left: auto;
-	margin-right: auto;
+	background-color: #E2DFB6;
 	color: #000;
 	font-size: 15px;
 	line-height: 200%;
-    background-color: #E2DFB6;
-    overflow: scroll;
+	margin: 40px auto 20px;  /* top right&left bottom */
+	overflow: scroll;
+	padding: 20px 10px 20px 10px;
     height: 500px;
+    width: 90%;
 }
 
 
@@ -200,10 +179,10 @@ a.textLink:hover, a.textLink:active {
 =====================================================================*/
 
 .borderHeaderBox {
-	width: 50%;
 	float: left;
 	margin-left: 100px;
 	margin-top: -7px;
+	width: 50%;
 }
 
 .borderheader {
@@ -265,19 +244,12 @@ a.textLink:hover, a.textLink:active {
 	height: 500px;
 }*/
 
+
 /*OTHER
 =====================================================================*/
 
-.portfolio {
-	display: inline-block;
-}
 
-.portPic {
-	width: 350px;
-
-}
-
-.caption {
+/*.caption {
 	visibility: hidden;
 	background: #68663F;
 	color: #fff;
@@ -286,29 +258,35 @@ a.textLink:hover, a.textLink:active {
 	width: 350px;
 	height: 221.5189873418px;
 	font-size: 12px;
-}
+}*/
 
 .contactIcon {
 	width: 40px;
 }
 
+
 /*MOBILE DEVICES  1293
 =====================================================================*/
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 991px) {
 	#playerprofile {
-		width: 500px;
+		max-width: 500px;
 	}
+
+	#navbar [id$="Btn"] {
+    	margin: 0 auto; 
+	}
+
 }
 
 @media screen and (max-width: 768px) {
+
 
 }
 
 @media screen and (max-width: 640px) {
 	/*Need to make sure I fix the headers*/
 
-	#navbar {
-		margin: 0 auto;
-	}
+
+
 }
