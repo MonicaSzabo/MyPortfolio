@@ -38,12 +38,10 @@ $(document).ready(function() {
 
         // Mobile responsiveness
         if(wH > 600) {
-            // alert(wH);
             $('.background').css({height: wH});
             $('.border').css({height: borderHeight});
             $('.bodytext').css({height: innerBlock});
         } else {
-            // alert("hey");
             $('.background').css({height: "1000px"});
             $('.border').css({height: "530px"});
             $('.bodytext').css({height: "430px"});
