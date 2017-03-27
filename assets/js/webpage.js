@@ -22,19 +22,12 @@ $(document).ready(function() {
     //Height stays 100% of the screen
     function windowH() {
         var wH = $(window).height();
-
         var wW = $(window).width();
-
-        //Mobile responsiveness
-        // if(wH <= 817) {
-        //    $('.border').css({'overflow-y': 'inherit'});
-        // } else {
-        //    $('.border').css({'overflow-y': 'scroll'});
-        // }
 
         var borderHeight = wH * .50;
         var innerBlock = borderHeight - 100;
 
+        //Closes the gap on wide screens
         if(wW > 1389) {
             var innerBlockWidth = wW * .74;
             $('.bodytext').css({width: innerBlockWidth});
@@ -43,9 +36,18 @@ $(document).ready(function() {
             $('.bodytext').css({width: "90%"});
         }
 
-        $('.background').css({height: wH});
-        $('.border').css({height: borderHeight});
-        $('.bodytext').css({height: innerBlock});
+        // Mobile responsiveness
+        if(wH > 600) {
+            // alert(wH);
+            $('.background').css({height: wH});
+            $('.border').css({height: borderHeight});
+            $('.bodytext').css({height: innerBlock});
+        } else {
+            // alert("hey");
+            $('.background').css({height: "1000px"});
+            $('.border').css({height: "500px"});
+            $('.bodytext').css({height: "400px"});
+        }
 
     }
     //Resizes on window resize

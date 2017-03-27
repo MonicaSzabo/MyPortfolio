@@ -11,10 +11,10 @@
 }
 
 .background {
-	background-attachment: fixed, fixed;
 	background-image: url('../images/background/Background_Main.png'), url('../images/background/Background_Fill.png');
 	background-position: center top;
 	background-repeat: repeat-x, repeat;
+	background-attachment: fixed, fixed;
 	padding-bottom: 60px;
 	padding-top: 60px;
 	width: 100%;
@@ -169,7 +169,7 @@ a.textLink:hover, a.textLink:active {
 	line-height: 200%;
 	margin: 40px auto 20px;  /* top right&left bottom */
 	overflow: scroll;
-	padding: 20px 10px 20px 10px;
+	padding: 20px 10px; /* top&bottom right&left */
     height: 500px;
     width: 90%;
 }
@@ -186,20 +186,20 @@ a.textLink:hover, a.textLink:active {
 }
 
 .borderheader {
+	display: inline;
 	float: left;
 	position: relative;
-	display: inline;
 	height: 56px;
 }
 
 .bordercenter {
-	float: left;
 	background-image: url('../images/frame/Frame_Title_Center.png');
-	height: 56px;
-	display: inline;
-	padding-top: 13px;
-	font-size: 24px;
 	color: #E2DFB6;
+	display: inline;
+	float: left;
+	font-size: 24px;
+	padding-top: 13px;
+	height: 56px;
 }
 
 
