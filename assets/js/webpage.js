@@ -45,8 +45,8 @@ $(document).ready(function() {
         } else {
             // alert("hey");
             $('.background').css({height: "1000px"});
-            $('.border').css({height: "500px"});
-            $('.bodytext').css({height: "400px"});
+            $('.border').css({height: "530px"});
+            $('.bodytext').css({height: "430px"});
         }
 
     }
