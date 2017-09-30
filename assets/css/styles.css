@@ -474,6 +474,8 @@ body .demo-blog {
   left: 16px;
   color: #008080;
   z-index: 9999;
+  background-color: white;
+  border-radius: 50%;
 }
 .demo-blog .section-spacer {
   -webkit-box-flex: 1;
