@@ -67,10 +67,10 @@ body .demo-blog {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: stretch;
+/*  -webkit-box-align: stretch;
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
-          align-items: stretch;
+          align-items: stretch;*/
 }
 .intro-card {
   min-height: 360px;
@@ -265,7 +265,7 @@ body .demo-blog {
   background-image: url('../img/websites.jpeg');
 }
 .demo-blog .applications .mdl-card__media {
-  background-image: url('../img/applications.jpeg');
+  background-image: url('../img/applications.jpg');
 }
 .demo-blog .demo-blog__posts > .demo-nav {
   margin: 12px 15px;
