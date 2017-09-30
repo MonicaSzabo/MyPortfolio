@@ -472,7 +472,7 @@ body .demo-blog {
   position: absolute;
   top: 16px;
   left: 16px;
-  color: #1f1f94;
+  color: #008080;
   z-index: 9999;
 }
 .demo-blog .section-spacer {
@@ -582,6 +582,26 @@ body .demo-blog {
   right: -107px;
 }
 
+.image-page {
+  margin: 20px auto;
+}
+
+.image-page img {
+  width: 100%;
+  border: 1px solid #008080;
+}
+
+.mobile-pic {
+  width: 50%!important;
+  display: grid;
+}
+
+.center-wrapper {
+  text-align: center;
+  justify-items: center;
+  display: grid;
+}
+
 @media only screen and (max-width: 470px) {
   .demo-blog .intro-pic .mdl-card__media {
     background-position: 0px;
@@ -602,6 +622,10 @@ body .demo-blog {
 
   .longer-page {
     height: 300px!important;
+  }
+
+  h3 {
+    font-size: 26px;
   }
 }
 
