@@ -336,11 +336,6 @@ body .demo-blog {
   background-image: none!important;
   background-color: #008080;
 }
-.pdf-viewer {
-  width: 90%;
-  height: 979px;
-  margin: 0 auto;
-}
 .demo-blog--blogpost .comments {
   background-color: #EEE;
 }
@@ -477,7 +472,7 @@ body .demo-blog {
   position: absolute;
   top: 16px;
   left: 16px;
-  color: white;
+  color: #1f1f94;
   z-index: 9999;
 }
 .demo-blog .section-spacer {
@@ -591,16 +586,33 @@ body .demo-blog {
   .demo-blog .intro-pic .mdl-card__media {
     background-position: 0px;
   }
-}
 
-@media only screen and (max-width: 900px) {
-  .pdf-viewer {
-    display:none;
+  .crop img {
+    right: -79px;
+    width: 500px;
   }
 
-  .view-on-mobile {
-    display: inherit!important;
-    text-align: center;
+  .crop {
+    height: 250px;
+  }
+
+  .shorter-page {
+    height: 160px!important;
+  }
+
+  .longer-page {
+    height: 300px!important;
+  }
+}
+
+@media only screen and (max-width: 839px) {
+  .mobile-no-space {
+    margin-bottom: -8px;
+  }
+
+  .crop img {
+    right: 0px;
+    width: 100%;
   }
 }
 
